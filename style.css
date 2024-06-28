@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.section-one__desc li{
+    display: inline;
+    list-style: none;
+    margin:10px;
+}
+
+.container{
+   
+    text-align: center;
+   
+
+
+} 
+.card-one,.card-two,.card-three,.card-four{
+    text-align: center;
+    flex-basis: 60%;
+    width:200px;
+    display: inline-block;
+    border: solid black 2px;
+    margin:10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right:10px;
+    vertical-align: top;
+}
+
+.card-one__button,.card-two__button,.card-three__button,.card-four__button{
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius: 5px;
+    border: solid black 1px;
+
+}
+.contact-form{
+    background-color: black;
+}
+form{
+    
+    color:white;
+    align-content: center;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+.contact-form__button{
+    background-color: yellow;
+    color:black;
+    width: 100px;
+}
